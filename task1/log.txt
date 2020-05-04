@@ -1,0 +1,6 @@
+
+commit 3152079a9bfb146856cb5bbfcc614c316f2a4e4e (HEAD -> master)
+Author: Christina <donja2701@gmail.com>
+Date:   Thu Feb 13 15:09:13 2020 +0300
+
+    add .gitignore
