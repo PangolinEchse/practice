@@ -1,0 +1,466 @@
+body{
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    position: relative;
+
+}
+.Log {
+    float: right;
+    margin-left: 1350px;
+    border-radius: 25%;
+    width: 70px;
+    height: 30px;
+}
+
+h1 {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-size:34px;
+    width: 250px;
+    padding-top: 15px;
+    height: 35px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+    position: fixed;
+    padding-bottom:20px;
+    float:left;
+}
+
+form {
+    list-style-type: none;
+    margin-top: 20px;
+    height: 80%;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 50px;
+    width: 25%;
+    position: fixed;
+    display: block;
+    font-family: 'Roboto';
+    float: left;
+    font-size: 30px;
+}
+
+form p.filter{
+    margin-top: 10px;
+    display: block;
+    font-family: 'Roboto';
+    font-size:28px;
+    width: 250px;
+    padding-top: 15px;
+    height: 35px;
+    padding-left: 120px;
+}
+
+form label{
+    padding-top:10px;
+    display: block;
+    font-size: 25px;
+    padding-left:30px;
+    text-decoration: none;
+    width: 240px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+form input{
+    width: 240px;
+    height: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    border:2px solid black;
+    font-size: 25px;
+    color: grey;
+    font-family: 'Roboto';
+}
+
+form button{
+    border: 2px solid black;
+    margin-top: 10px;
+    margin-left: 60px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 10px;
+    height: 10px;
+    width: 200px;
+}
+
+button:active {
+    background-color: white;
+    transform: translateY(4px);
+}
+
+form button p{
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+
+div.whatst {
+    margin-left: 420px;
+    height: 160px;
+    width: 950px;
+    border:2px solid black;
+    float: left;
+
+}
+
+div.whatst input.wha {
+    margin-top: 50px;
+    border:none;
+    font-weight: normal;
+    margin-left: 120px;
+    margin-right: 0;
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+div.whatst button {
+    display: inline-block;
+    float: right;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+}
+
+div.whatst button.add{
+    margin-top: 100px;
+    margin-right: 30px;
+    font-size: 17px;
+    width: 70px;
+}
+
+div.whatst button.add p {
+    display: inline-block;
+    margin-top: 1px;
+    float: left;
+}
+
+div.whatst button.plus {
+    padding-bottom: 15px;
+    margin-right: 10px;
+    margin-top: 105px;
+    font-size: 30px;
+    border-radius: 48%;
+    width: 50px;
+}
+
+div.whatst button.plus p {
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+div.content {
+    float: left;
+    margin-left: 420px;
+    position: relative;
+    margin-top: 25px;
+    width: 1000px;
+    overflow: auto;
+    list-style-position:outside;
+}
+
+div.content div.post{
+    width: 950px;
+    height: 200px;
+    border:2px solid black;
+    float: left;
+}
+
+div.content div.post button.Edit{
+    display: inline-block;
+    float: right;
+    border: none;
+    background-color: white;
+    text-decoration:underline;
+    color: blue;
+    padding-bottom: 25px;
+    margin-right: 27px;
+    margin-bottom: 70px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+div.content div.post h3{
+    margin-top: 30px;
+    width: 800px;
+    margin-left: 120px;
+    margin-right: 40px;
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+div.content div.post ul{
+    width: 65px;
+    display: none;
+    padding: 0;
+    float: right;
+    margin:0px 30px 850px 200px;
+    height: 70px;
+    position: absolute;
+    font-size: 18px;
+    list-style-type: none;
+    font-family: 'Roboto';
+    background-color: white;
+}
+
+div.content div.post ul li button{
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+    height: 10px;
+    width: 65px;
+}
+div.content div.post p{
+    width: 800px;
+    margin-left: 120px;
+    height: 80px;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+div.content div.post p.tags{
+    font-size: 18px;
+    width: 300px;
+    margin-left: 50px;
+    height: 20px;
+    font-family: 'Roboto';
+    color: blue;
+}
+div.content div.post button.like{
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    margin-right: 20px;
+    font-family: 'Roboto';
+    color: blue;
+}
+
+div.content button.plus {
+    display: inline-block;
+    float: right;
+
+    border: 2px solid black;
+    color: black;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 48%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 48%;
+    height: 50px;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+}
+
+div.content button.plus p {
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    position: fixed;
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-top:650px;
+    font-size: 18px;
+    display: block;
+    float:left;
+}
+
+footer p{
+    width: 800px;
+    height: 150px;
+    color: grey;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+@media screen and (max-width: 900px) {
+    h1{
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size:15px;
+        width: 120px;
+        padding-bottom: 5px;
+        height: 25px;
+        margin-left: 70px;
+        padding-left: 40px;
+    }
+
+    form{
+        padding-top:15px;
+        margin: 0;
+        padding-top: 5px;
+        margin-right: 10px;
+        width: 110px;
+    }
+
+    form p.filter{
+        display: none;
+    }
+
+    form label{
+        font-size: 15px;
+        padding-left:10px;
+        width: 30px;
+        display: inline-block;
+    }
+
+    form input{
+        display: inline-block;
+        width: 70px;
+        height: 15px;
+        margin-left: 7px;
+        font-size: 15px;
+    }
+
+    form button{
+        margin-left: 15px;
+        font-size: 15px;
+        padding-top: 0px;
+        padding-left: 0;
+        height: 30px;
+        width: 70px;
+    }
+    form button p{
+        margin-top: 4px;
+        padding-top: 0;
+        font-size: 15px;
+    }
+
+    div.whatst {
+        margin-left: 100px;
+        margin-top: 40px;
+        position: fixed;
+        height: 80px;
+        width: 78%;
+    }
+    input.Data2{
+        margin-top: 5px;
+    }
+    div.whatst input.wha {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 0;
+        font-size: 17px;
+    }
+
+    div.whatst button.add {
+        margin-top: 45px;
+        margin-right: 20px;
+        font-size: 10px;
+        height: 30px;
+        width: 50px;
+    }
+
+    div.whatst button.plus {
+        padding-bottom: 3px;
+        padding-top: 0px;
+        margin-right: 10px;
+        margin-top: 50px;
+        font-size: 15px;
+        height: 25px;
+        width: 25px;
+    }
+
+    div.content {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 110px;
+        height: 200px;
+        width: 73%;
+    }
+
+    div.content div.post{
+        width: 90%;
+        float: right;
+        height: 150px;
+    }
+
+    div.content div.post h3{
+        margin-top:7px;
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 6px;
+    }
+    div.content div.post p{
+        display: block;
+        width: 80%;
+        margin-left: 30px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    div.content div.post p.tags{
+        font-size: 16px;
+        width: 150px;
+        margin-left: 20px;
+        height: 10px;
+    }
+
+    div.content div.post button.Edit{
+        margin-right: 17px;
+        margin-bottom: 50px;
+        height: 30px;
+    }
+
+    div.content div.post ul{
+        display: none;
+    }
+
+    div.content div.post button.like{
+        padding-bottom: 5px;
+        margin-right: 10px;
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    div.content button.plus {
+        float: left;
+        padding-bottom: 3px;
+        padding-top: 0px;
+        margin-left: 55%;
+        margin-top: 5px;
+        font-size: 15px;
+        height: 25px;
+        width: 25px;
+    }
+
+    div.content div.post ul{
+        margin: 0;
+        margin-left: 85%;
+        margin-right: 30px;
+        height: 50px;
+        margin-top: 0px;
+        margin-bottom: 40px
+    }
+
+    div.content div.post ul li button{
+        padding-top: 7px;
+        font-size: 10px;
+        height: 30px;
+    }
+    footer{
+        display: none;
+    }}
