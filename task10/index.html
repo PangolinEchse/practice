@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="resourses/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <title>PsevdoTwitter</title>
+
+  <script type="text/javascript" src="resources/script1.js"></script>
+</head>
+<body>
+
+<button class="Log" id="logOut">Without logginig </button>
+<button class="LogIn" id="logIn">Log in</button>
+<button class="LogOutforV" id="logOutForV">Log Out</button>
+
+
+
+
+
+
+
+
+
+<div class="log" id="logPage">
+
+  <div class="limiter">
+    <div class="container-login100">
+      <div class="wrap-login100 p-l-85 p-r-85 p-t-55 p-b-55">
+        <div class="login100-form validate-form flex-sb flex-w">
+					<span class="login100-form-title p-b-32">
+						Account Login
+					</span>
+
+          <span class="txt p-b-11">
+						Username
+					</span>
+          <div class="wrap-input100 validate-input m-b-36">
+            <input  id="userInputName" class="input100" type="text" name="username" >
+          </div>
+
+          <span class="txt p-b-11">
+						Password
+					</span>
+          <div class="wrap-input100 validate-input m-b-12">
+            <input id="userPassword"  class="input100" type="password" name="pass" >
+          </div>
+
+
+
+          <div class="container-login100-form-btn">
+            <button id="logForm" class="login100-form-btn">
+              Login
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div  class="drop" id="dropDownSelect1"></div>
+
+  <!--===============================================================================================-->
+
+
+</div>
+
+
+<div class="main" id="mainPage">
+  <div class="forfix" >
+  <h1 class="user" id="userName"></h1>
+  <div class="form"  id="filterForm">
+    <p class="filter">Filter</p>
+    <div class="nameFilter">
+    <label >Name:</label><br>
+    <input id="fname" type="text"   name="Name"  placeholder="Name" ><br>
+    </div>
+    <flexbox class="dataFilter">
+    <label>Date</label><br>
+    <input id="Data1" type="date" class="Data"  name="lname" placeholder="Data"><br>
+    <input  id="Data2"  type="date" class="Data2"  name="lname"  placeholder="Data"><br>
+    </flexbox>
+    <flexbox class="tagsFilter">
+    <label>Tags:</label><br>
+    <input  id="filterTag" type="text"  name="lname" placeholder="Tags"><br>
+    </flexbox>
+    <button id="app"> <p>Apply</p></button>
+
+  </div>
+  </div>
+
+  <div class="whats" id="whats">
+    <input id="whatsInput" class="wha"  type="text" name="Whats" placeholder=" Whats happening??">
+    <input id="whatsInputTags" class="whaT"  type="text" name="WhatsT" placeholder=" want tags?">
+    </input>
+    <button class="add" id="addInW"><p>Add tweet</p></button>
+    <button class="plus" id="plusInW"><p>+</p></button>
+
+  </div>
+  <flexbox>
+    <div class="content" id="tweetContainer">
+      <template id="tweetTemplate">
+        <div id="oneTweet" class="post" >
+          <div class="tweet-action" id="action">
+            <button class="Ok" id="ok">Ok</button>
+            <button class="Edit" id="edit">Edit</button>
+            <button class="Delete" id="delete">Delete</button>
+            <button class="like" id="like">like</button>
+          </div>
+          <div class="tweet-info" id="postText">
+            <h3 class="tweet-name"></h3>
+            <p class="tweet-text" id="tweetText" ></p>
+            <input class="tweet-input-text" id="text" placeholder="edit" >
+            <p class="tags" id="tags"></p>
+            <input class="tags-input" id="tagsInput" placeholder="edit">
+          </div>
+        </div>
+      </template>
+      <button class="plus" id="plusInPosts">+</button>
+    </div>
+  </flexbox>
+  <footer id="footer">
+
+    <p>Christina Borovik<br><br>
+      2 k 8 g<br><br>
+      TwitterProxy<br><br>
+      jhff@gmail.com</p>
+  </footer>
+</div>
+</body>
+</html>
+
