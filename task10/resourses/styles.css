@@ -1,0 +1,808 @@
+
+div.log{
+    height: 100%;
+    font-family: Raleway-Regular, sans-serif;
+
+}
+
+div.log h1,h2,h3,h4,h5,h6 {
+    margin: 0px;
+}
+
+div.log p {
+    font-family: Raleway-Regular;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666666;
+    margin: 0px;
+}
+
+div.log ul, li {
+    margin: 0px;
+    list-style-type: none;
+}
+
+div.log input {
+    outline: none;
+    border: none;
+}
+
+
+div.log label {
+    display: block;
+    margin: 0;
+}
+
+div.log button {
+    outline: none !important;
+    border: none;
+    background: transparent;
+}
+
+div.log .txt {
+    font-family: Raleway-SemiBold;
+    font-size: 13px;
+    color: #555555;
+    line-height: 1.4;
+    text-transform: uppercase;
+}
+
+div.log .limiter {
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.log .container-login100 {
+    width: 100%;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    background-color: #ebebeb;
+}
+
+
+div.log .wrap-login100 {
+    width: 560px;
+    background: #fff;
+    border-radius: 10px;
+    position: relative;
+}
+
+div.log .login100-form {
+    width: 500px;
+}
+
+div.log .login100-form-title {
+    font-family: Raleway-Medium;
+    font-size: 30px;
+    color: #555555;
+    line-height: 1.2;
+    text-transform: uppercase;
+    text-align: left;
+
+    width: 100%;
+    display: block;
+}
+
+div.log .wrap-input100 {
+    width: 500px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 2px;
+}
+
+div.log .input100 {
+    font-family: Raleway-Medium;
+    color: #555555;
+    line-height: 1.2;
+    font-size: 18px;
+
+    display: block;
+    width: 450px;
+    background: transparent;
+    height: 55px;
+    padding: 0 25px 0 25px;
+}
+div.drop{
+    width: 450px;
+}
+
+div.log .container-login100-form-btn {
+    width: 500px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.log .login100-form-btn {
+    font-family: Raleway-Bold;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 150px;
+    height: 55px;
+    background-color: #333333;
+    border-radius: 27px;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+
+div.log @media (max-width: 576px) {
+    .wrap-login100 {
+        padding-left: 15px;
+        padding-right: 15px;
+
+
+    }
+}
+
+div.log .p-l-85{padding-left: 85px;}
+div.log .p-r-86{padding-right: 85px; ;}
+div.log .p-t-55{padding-top: 55px;}
+div.log .p-b-55{padding-bottom: 55px;}
+div.log .p-b-32{padding-bottom: 32px;}
+div.log .p-b-11{padding-bottom: 11px;
+width: 500px;}
+div.log .m-b-36{margin-bottom: 36px;}
+div.log .m-b-12{margin-bottom: 12px;}
+div.log .m-l-r-auto {margin-left: auto;	margin-right: auto;}
+div.log .m-l-auto {margin-left: auto;}
+div.log .m-r-auto {margin-right: auto;}
+
+div.log .flex-w {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+
+div.log .flex-sb {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    width: 100%;
+    margin: 0;
+    font-size: 18px;
+    position: relative;
+
+}
+.Log {
+    display:none;
+    float: right;
+    margin-left: 1350px;
+    border-radius: 25%;
+    width: 70px;
+    height: 50px;
+}
+.LogIn {
+
+    float: right;
+    margin-left: 1350px;
+    border-radius: 25%;
+    width: 70px;
+    height: 30px;
+}
+.LogOutforV {
+    display:none;
+    float: right;
+    margin-left: 1350px;
+    border-radius: 25%;
+    width: 70px;
+    height: 30px;
+}
+
+
+h1 {
+    margin-top: 5px;
+    font-family: 'Roboto';
+    font-size:34px;
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 70px;
+    height: 35px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+    position: fixed;
+    padding-bottom:20px;
+    float:left;
+}
+
+.form {
+    list-style-type: none;
+    margin-top: 20px;
+    height: 20%;
+    padding-left: 0;
+    margin-left: 0;
+    padding-top: 50px;
+    width: 100%;
+    position: fixed;
+    display: block;
+    font-family: 'Roboto';
+    float: left;
+    font-size: 30px;
+
+}
+
+.form p.filter{
+    margin-top: 30px;
+    display: block;
+    font-family: 'Roboto';
+    font-size: 28px;
+    width: 130px;
+    float: left;
+    padding-top: 15px;
+    height: 35px;
+}
+div.nameFilter{
+    width: 290px;
+    float: left;
+}
+flexbox.dataFilter{
+    width: 290px;
+    float: left;
+}
+flexbox.tagsFilter{
+    width: 290px;
+    float: left;
+}
+
+.form label{
+    padding-top:10px;
+    display: block;
+    font-size: 25px;
+    padding-left:30px;
+    text-decoration: none;
+    width: 270px;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+.form input{
+    width: 270px;
+    height: 30px;
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    border:2px solid black;
+    font-size: 25px;
+    color: grey;
+    font-family: 'Roboto';
+}
+
+.form button{
+    border: 2px solid black;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-left: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding-bottom: 10px;
+    height: 70px;
+    width: 80px;
+}
+
+button:active {
+    background-color: white;
+    transform: translateY(4px);
+}
+
+.form button p{
+    font-size: 20px;
+    font-family: 'Roboto';
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+div.forfix{
+    margin-top: 30px;
+    position: fixed;
+    z-index: 100;
+    height: 240px;
+    width: 1960px;
+    background-color:green;
+}
+
+
+div.whats {
+    margin-left: 200px;
+    height: 200px;
+    width: 950px;
+    margin-top: 300px;
+    border:2px solid black;
+    float: left;
+
+}
+
+div.whats input.wha {
+    margin-top: 20px;
+   display: inline;
+    border:none;
+    font-weight: normal;
+    margin-left: 120px;
+    margin-right: 0;
+    font-family: 'Roboto';
+    font-size: 22px;
+    width: 600px;
+    height: 100px;
+    color: grey;
+    margin-bottom: 0px;
+}
+div.whats input.whaT {
+    margin-top: 0px;
+    display: inline;
+    border:none;
+    font-weight: normal;
+    margin-left: 120px;
+    margin-right: 0;
+    width: 600px;
+    font-family: 'Roboto';
+    font-size: 22px;
+    color: grey;
+    margin-bottom: 0px;
+}
+
+div.whats button {
+    display: inline-block;
+    float: right;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    height: 50px;
+}
+
+div.whats button.add{
+
+    margin-right: 30px;
+    font-size: 17px;
+    width: 70px;
+}
+
+div.whats button.add p {
+    display: inline-block;
+    margin-top: 1px;
+    float: left;
+}
+
+div.whats button.plus {
+    padding-bottom: 15px;
+    margin-right: 10px;
+
+    font-size: 30px;
+    border-radius: 48%;
+    width: 50px;
+}
+
+div.whats button.plus p {
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+div.content {
+    float: left;
+    margin-left: 200px;
+    position: relative;
+    margin-top: 25px;
+    width: 1000px;
+    overflow: auto;
+    list-style-position:outside;
+}
+
+div.content div.post{
+    width: 950px;
+    height: 200px;
+    border:2px solid black;
+    float: left;
+}
+tweet-action{
+    width: 30px;
+    height: 200px;
+    margin-left: 300px;
+}
+.tweet-action .Edit{
+    display: none;
+    float: right;
+    border: none;
+    background-color: white;
+    text-decoration:underline;
+    color: blue;
+    margin-right: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+.tweet-action .Delete{
+    display: none;
+    float: right;
+    border: none;
+    background-color: white;
+    text-decoration:underline;
+    color: blue;
+    margin-right: 10px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+.tweet-action .Ok{
+    display:none;
+    float: right;
+    border: none;
+    background-color: white;
+    text-decoration:underline;
+    color: blue;
+    margin-right: 50px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    width: 50px;
+}
+
+div.content div.post h3{
+    margin-top: 30px;
+    width: 800px;
+    margin-left: 120px;
+    margin-right: 40px;
+    display: block;
+    font-size: 18px;
+    font-family: 'Roboto';
+}
+
+div.content div.post ul{
+    width: 65px;
+    display: none;
+    padding: 0;
+    float: right;
+    margin:0px 30px 850px 200px;
+    height: 70px;
+    position: absolute;
+    font-size: 18px;
+    list-style-type: none;
+    font-family: 'Roboto';
+    background-color: white;
+}
+
+div.content div.post ul li button{
+    text-decoration: none;
+    list-style-type: none;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 17px;
+    padding-bottom: 10px;
+    height: 10px;
+    width: 65px;
+}
+div.content div.post p{
+    width: 800px;
+    margin-left: 120px;
+    height: 80px;
+    font-size: 12px;
+
+    font-family: 'Roboto';
+}
+input.tweet-input-text{ width: 800px;
+    height: 80px;
+    display: none;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Roboto';}
+
+div.content div.post p.tags{
+    font-size: 18px;
+    width: 300px;
+    margin-left: 50px;
+    height: 20px;
+    font-family: 'Roboto';
+    color: blue;
+
+}
+div.main{
+
+}
+div.log{
+    display: none;
+}
+input.tags-input{
+    font-size: 18px;
+    width: 300px;
+    height: 20px;
+    display: none;
+    margin-left: 30px;
+    font-family: 'Roboto';
+
+    color: blue;
+}
+.tweet-action .like{
+    font-size: 18px;
+    width: 70px;
+    height: 30px;
+    float: right;
+    margin-top: 140px;
+    margin-right: 50px;
+     float: right;
+    font-family: 'Roboto';
+    color: blue;
+}
+.tweet-action .Ok{
+    display: none;
+ }
+.tweet-action .Edit{
+    display: none;
+}
+
+div.content button.plus {
+    display: inline-block;
+    float: right;
+
+    border: 2px solid black;
+    color: black;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-right: 48%;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 48%;
+    height: 50px;
+    position: relative;
+    width: 50px;
+    cursor: pointer;
+}
+
+div.content button.plus p {
+    display: inline-block;
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+footer{
+    width: 100%;
+    height: 150px;
+    margin: 0;
+    position: fixed;
+    padding-left: 40px;
+    padding-top: 15px;
+    margin-top:650px;
+    font-size: 18px;
+    display: block;
+    float:left;
+}
+div.post-action{
+    width: 60px;
+    hight: 200px;
+    float: right;
+}
+
+footer p{
+    width: 800px;
+    height: 150px;
+    color: grey;
+    font-size: 12px;
+    font-family: 'Roboto';
+}
+@media screen and (max-width: 900px) {
+    h1{
+        margin-top: 0px;
+        padding-top: 0px;
+        font-size:15px;
+        width: 120px;
+        padding-bottom: 5px;
+        height: 25px;
+        margin-left: 70px;
+        padding-left: 40px;
+    }
+
+    form{
+        padding-top:15px;
+        margin: 0;
+        padding-top: 5px;
+        margin-right: 10px;
+        width: 110px;
+    }
+
+    form p.filter{
+        display: none;
+    }
+
+    form label{
+        font-size: 15px;
+        padding-left:10px;
+        width: 30px;
+        display: inline-block;
+    }
+
+    form input{
+        display: inline-block;
+        width: 70px;
+        height: 15px;
+        margin-left: 7px;
+        font-size: 15px;
+    }
+
+    form button{
+        margin-left: 15px;
+        font-size: 15px;
+        padding-top: 0px;
+        padding-left: 0;
+        height: 30px;
+        width: 70px;
+    }
+    form button p{
+        margin-top: 4px;
+        padding-top: 0;
+        font-size: 15px;
+    }
+
+    div.whatst {
+        margin-left: 100px;
+        margin-top: 40px;
+        position: fixed;
+        height: 80px;
+        width: 78%;
+    }
+    input.Data2{
+        margin-top: 5px;
+    }
+    div.whatst input.wha {
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-right: 0;
+        font-size: 17px;
+    }
+
+    div.whatst button.add {
+        margin-top: 45px;
+        margin-right: 20px;
+        font-size: 10px;
+        height: 30px;
+        width: 50px;
+    }
+
+    div.whatst button.plus {
+        padding-bottom: 3px;
+        padding-top: 0px;
+        margin-right: 10px;
+        margin-top: 50px;
+        font-size: 15px;
+        height: 25px;
+        width: 25px;
+    }
+
+    div.content {
+        position: absolute;
+        margin-top: 130px;
+        margin-left: 110px;
+        height: 200px;
+        width: 73%;
+    }
+
+    div.content div.post{
+        width: 90%;
+        float: right;
+        height: 150px;
+    }
+
+    div.content div.post h3{
+        margin-top:7px;
+        width: 100%;
+        margin-left: 30px;
+        margin-right: 6px;
+    }
+    div.content div.post p{
+        display: block;
+        width: 80%;
+        margin-left: 30px;
+        height: 60px;
+        font-size: 15px;
+    }
+
+    div.content div.post p.tags{
+        font-size: 16px;
+        width: 150px;
+        margin-left: 20px;
+        height: 10px;
+    }
+
+    div.content div.post button.Edit{
+        margin-right: 17px;
+        margin-bottom: 50px;
+        height: 30px;
+    }
+
+    div.content div.post ul{
+        display: none;
+    }
+
+    div.content div.post button.like{
+        padding-bottom: 5px;
+        margin-right: 10px;
+        display: block;
+        margin-bottom: 10px;
+        position: relative;
+    }
+
+    div.content button.plus {
+        float: left;
+        padding-bottom: 3px;
+        padding-top: 0px;
+        margin-left: 55%;
+        margin-top: 5px;
+        font-size: 15px;
+        height: 25px;
+        width: 25px;
+    }
+
+    div.content div.post ul{
+        margin: 0;
+        margin-left: 85%;
+        margin-right: 30px;
+        height: 50px;
+        margin-top: 0px;
+        margin-bottom: 40px
+    }
+
+    div.content div.post ul li button{
+        padding-top: 7px;
+        font-size: 10px;
+        height: 30px;
+    }
+    footer{
+        display: none;
+    }}
